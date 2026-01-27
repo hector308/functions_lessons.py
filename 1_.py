@@ -1,3 +1,33 @@
+# #function=a block of reusable code
+# #place () after the funciton name to invoke it
+# def birthday(name,age):
+#     print(f"happy birthday to {name}!")
+#     print(f"you are {age} years old")
+#     print("happy birthday to you")
+#     print()
+
+# birthday("bro",20)
+# birthday("steve",18)
+
+# def display_invoice(username, ammount, due):
+#     print(f"Hello {username}")
+#     print(f"your bill of ${ammount: .2f} is due: {due}")
+# display_invoice("bro",42.50,"01/10")
+# #reutrn= statement used to aend a function
+# #and send a result back to the caller
+# def add(x,y):
+#     z=x+y
+#     return z
+# def subtract(x,y):
+#     z=x-y
+#     return z   
+# print(add(1,2))
+# print(subtract(1,2))
+def(create_name(first,last):
+    first=first.capitalize()
+    last=last.capitalize()
+    return first+""+last
+full_name=create_name("spongebob","squarepants")
 # Methods, Help & Documentation Practice #1
 # Remove the characters to the left of our main text:
 
