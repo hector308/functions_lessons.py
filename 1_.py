@@ -26,7 +26,7 @@
 def(create_name(first,last):
     first=first.capitalize()
     last=last.capitalize()
-    return first+""+last
+return first+""+last
 full_name=create_name("spongebob","squarepants")
 # Methods, Help & Documentation Practice #1
 # Remove the characters to the left of our main text:
