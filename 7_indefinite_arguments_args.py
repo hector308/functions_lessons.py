@@ -1,3 +1,11 @@
+def tea_order(name,tea,*args):
+    print(name," ordered a",tea,"tea")
+tea_order("Alice","green")
+#addong treu false peramitors does not scale well. It is a mess
+#args let you add any custom paramitors. Star lets you put it into a tuple
+#**kwargs collects extra keywords into a dictionary
+#args and kwargs is jus a placeholder name
+
 # Indefinite Arguments (*args) Practice #1
 # Create a function called sum_squares that takes any number of numeric arguments, and returns the sum of their values squared.
 
